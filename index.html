@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <meta property="og:title" content="disgraced." />
+  <meta property="og:description" content="disgrace.wtf" />
+  <meta property="og:image" content="https://example.com/preview.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://disgrace.wtf" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="disgraced.">
+  <meta name="twitter:description" content="disgrace.wtf">
+  <meta name="twitter:image" content="https://example.com/preview.png">
 
+  <title>d</title>
+
+  <script>
+    // sequence of titles
+    const frames = [
+      "d","di","dis","disg","disgr","disgra","disgrac","disgrace",
+      "disgrace.","disgrace.w","disgrace.wt","disgrace.wtf"
+    ];
+    let i = 0;
+    function next() {
+      document.title = frames[i];
+      i = (i + 1) % frames.length;
+    }
+    setInterval(next, 400); // speed in ms
+  </script>
+
+  <style>
+    html,body {
+      height:100%;
+      margin:0;
+      background:#000;
+    }
+  </style>
+</head>
+<body></body>
+</html>
