@@ -17,4 +17,4 @@ I'm luaapi or you can call me by my older usernames: envysplague, exvy, or print
   discord: @luaapi;
   youtube: @lualogin;
   email: api@idx.lol;
-}```
+}
